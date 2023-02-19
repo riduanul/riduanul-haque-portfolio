@@ -1,5 +1,6 @@
 import React from 'react'
 import myImg from '../assets/images/4.png'
+import resume from '../assets/Resume_of_Md_Riduanul_haque.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
@@ -38,7 +39,7 @@ const About = () => {
                       }
                       
                     </div>
-                   <a href="src\assets\Resume_of_Md_Riduanul_haque.pdf" download="Resume_of_Md_Riduanul_haque.pdf"> <button className=' flex self-start bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-8 '>Download Resume</button></a>
+                   <a href={resume} download="Resume_of_Md_Riduanul_haque.pdf"> <button className=' flex self-start bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-8 '>Download Resume</button></a>
                   </div> 
                 </div>
                 <div className='flex-1 flex-end md:mt-0 mt-6 flex items-center justify-center'>
